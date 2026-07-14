@@ -9,7 +9,7 @@
 </a>
 
 <!-- Neon Divider -->
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://raw.githubusercontent.com/ManuDev21/ManuDev21/main/assets/pixel-divider.svg" width="100%">
 
 </div>
 
@@ -39,7 +39,7 @@
 ```
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://raw.githubusercontent.com/ManuDev21/ManuDev21/main/assets/pixel-divider.svg" width="100%">
 </div>
 
 ```bash
@@ -82,7 +82,7 @@
 </div>
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://raw.githubusercontent.com/ManuDev21/ManuDev21/main/assets/pixel-divider.svg" width="100%">
 </div>
 
 ```bash
@@ -119,7 +119,7 @@
 </div>
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://raw.githubusercontent.com/ManuDev21/ManuDev21/main/assets/pixel-divider.svg" width="100%">
 </div>
 
 ```bash
@@ -226,7 +226,7 @@
 </div>
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://raw.githubusercontent.com/ManuDev21/ManuDev21/main/assets/pixel-divider.svg" width="100%">
 </div>
 
 ```bash
@@ -242,7 +242,7 @@
 </picture>
 
 <div align="center">
-<img src="https://user-images.githubusercontent.com/73097560/115834477-dbab4500-a447-11eb-908a-139a6edaec5c.gif" width="100%">
+<img src="https://raw.githubusercontent.com/ManuDev21/ManuDev21/main/assets/pixel-divider.svg" width="100%">
 </div>
 
 ```bash
@@ -271,15 +271,3 @@
 </div>
 
 ---
-
-<details>
-<summary>Setup del Snake Animation (Click para ver)</summary>
-<br>
-
-Para activar la animacion de la serpiente en tu grafo de contribuciones, se incluye un workflow en `.github/workflows/snake.yml`. Solo necesitas ejecutarlo manualmente:
-
-1. Ve a tu repo `ManuDev21/ManuDev21`
-2. Pestaña **Actions** > **Generate Snake** > **Run workflow**
-3. La animacion aparecera automaticamente en tu README
-
-</details>

@@ -1,11 +1,11 @@
-<svg xmlns="http://www.w3.org/2000/svg" width="700" height="120" viewBox="0 0 700 120">
+<svg xmlns="http://www.w3.org/2000/svg" width="700" height="160" viewBox="0 0 700 160">
   <defs>
     <linearGradient id="bg" x1="0%" y1="0%" x2="100%" y2="100%">
       <stop offset="0%" style="stop-color:#0D1117"/>
       <stop offset="100%" style="stop-color:#161B22"/>
     </linearGradient>
     <filter id="glow">
-      <feGaussianBlur stdDeviation="2" result="coloredBlur"/>
+      <feGaussianBlur stdDeviation="1.5" result="coloredBlur"/>
       <feMerge>
         <feMergeNode in="coloredBlur"/>
         <feMergeNode in="SourceGraphic"/>
@@ -14,7 +14,7 @@
   </defs>
 
   <!-- Terminal Window Background -->
-  <rect width="700" height="120" rx="12" fill="url(#bg)" stroke="#30363D" stroke-width="1"/>
+  <rect width="700" height="160" rx="12" fill="url(#bg)" stroke="#30363D" stroke-width="1"/>
 
   <!-- Title Bar -->
   <rect width="700" height="32" rx="12" fill="#161B22"/>
@@ -41,8 +41,85 @@
     <animate attributeName="opacity" values="0.8;0;0.8" dur="1s" repeatCount="indefinite"/>
   </rect>
 
+  <!-- Pixelated Particles Row 1 -->
+  <rect x="480" y="50" width="4" height="4" fill="#00FF9F" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="50;45;50" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="520" y="55" width="4" height="4" fill="#00FF9F" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.1;0.7" dur="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="55;48;55" dur="2.2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="560" y="48" width="4" height="4" fill="#00FF9F" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.3;0.8" dur="1.3s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="48;42;48" dur="1.8s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="600" y="52" width="4" height="4" fill="#00FF9F" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.1;0.6" dur="2s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="52;46;52" dur="2.5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="640" y="50" width="4" height="4" fill="#00FF9F" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0.2;0.9" dur="1.6s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="50;44;50" dur="2.1s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Pixelated Particles Row 2 -->
+  <rect x="490" y="70" width="4" height="4" fill="#00FF9F" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;0.1;0.5" dur="1.7s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="70;64;70" dur="2.3s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="530" y="72" width="4" height="4" fill="#00FF9F" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.2;0.8" dur="1.4s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="72;66;72" dur="1.9s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="570" y="68" width="4" height="4" fill="#00FF9F" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.1;0.6" dur="1.9s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="68;62;68" dur="2.4s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="610" y="71" width="4" height="4" fill="#00FF9F" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.2;0.7" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="71;65;71" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="650" y="69" width="4" height="4" fill="#00FF9F" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0.3;0.9" dur="1.2s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="69;63;69" dur="1.7s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Pixelated Particles Row 3 -->
+  <rect x="500" y="90" width="4" height="4" fill="#00FF9F" opacity="0.7">
+    <animate attributeName="opacity" values="0.7;0.1;0.7" dur="1.6s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="90;84;90" dur="2.1s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="540" y="88" width="4" height="4" fill="#00FF9F" opacity="0.5">
+    <animate attributeName="opacity" values="0.5;0.2;0.5" dur="1.8s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="88;82;88" dur="2.3s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="580" y="92" width="4" height="4" fill="#00FF9F" opacity="0.8">
+    <animate attributeName="opacity" values="0.8;0.1;0.8" dur="1.3s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="92;86;92" dur="1.8s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="620" y="89" width="4" height="4" fill="#00FF9F" opacity="0.6">
+    <animate attributeName="opacity" values="0.6;0.2;0.6" dur="1.9s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="89;83;89" dur="2.4s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="660" y="91" width="4" height="4" fill="#00FF9F" opacity="0.9">
+    <animate attributeName="opacity" values="0.9;0.3;0.9" dur="1.5s" repeatCount="indefinite"/>
+    <animate attributeName="y" values="91;85;91" dur="2s" repeatCount="indefinite"/>
+  </rect>
+
+  <!-- Larger glowing pixels -->
+  <rect x="475" y="110" width="6" height="6" fill="#00FF9F" opacity="0.4" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.4;0.8;0.4" dur="2s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="555" y="112" width="6" height="6" fill="#00FF9F" opacity="0.3" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.3;0.7;0.3" dur="2.5s" repeatCount="indefinite"/>
+  </rect>
+  <rect x="635" y="110" width="6" height="6" fill="#00FF9F" opacity="0.5" filter="url(#glow)">
+    <animate attributeName="opacity" values="0.5;0.9;0.5" dur="1.8s" repeatCount="indefinite"/>
+  </rect>
+
   <!-- Status Line -->
-  <text x="20" y="106" font-family="monospace" font-size="11" fill="#8B949E">
+  <text x="20" y="146" font-family="monospace" font-size="11" fill="#8B949E">
     <tspan fill="#27C93F">●</tspan> ONLINE  |  <tspan fill="#00FF9F">Fullstack Developer</tspan>  |  <tspan fill="#8B949E">Toluca, Mexico</tspan>
   </text>
 </svg>
